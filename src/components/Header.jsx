@@ -4,11 +4,11 @@ function Header() {
     return (
       <header className="header" id='header'>
         <div id='logo'>
-          <i className="fa-solid fa-coins fa-2xl" id='logoicon'></i>
+          <i className="fa-solid fa-home fa-2xl" id='logoicon'></i>
         </div>
 
         <div id='home'>
-          <i className="fa-solid fa-home fa-2xl" id='homeicon'></i>
+          <i className="fa-solid fa-filter fa-2xl" id='homeicon'></i>
         </div>
 
         <div id='user'>
