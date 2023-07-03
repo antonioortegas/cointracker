@@ -4,7 +4,7 @@ function Coin() {
     return (
       <>
         <div>
-            COIN
+            <img src="../src/assets/images/placeholderlogo.png" alt="" />
         </div>
       </>
     )

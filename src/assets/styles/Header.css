@@ -1,8 +1,29 @@
-.header{
-    background-color: #282c34;
+#header{
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
     height: 10vh;
+    padding: 0 6vw;
+    font-size: calc(10px + 2vmin);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100vw;
+    opacity: 0.75;
+}
+
+
+#logo{
+    flex: 1;
+}
+
+#home{
+    flex: 0;
+}
+
+#user{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
