@@ -14,11 +14,6 @@
     justify-items: center;
 }
 
-#collection li{
-    display: flex;
-    flex-direction: column;
-}
-
 #coin-img{
     text-align: center;
 }
@@ -29,6 +24,7 @@
 }
 
 li{
+    list-style: none;
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,1);
