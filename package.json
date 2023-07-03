@@ -2,6 +2,7 @@
   "name": "cointracker",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://antonioortegas.github.io/cointracker/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
