@@ -2,83 +2,124 @@
     "collection": [
       {
         "id": "1",
-        "country": "ESPAÑA"
+        "country": "ESPAÑA",
+        "year": "2018",
+        "type": "n",
+        "src": "./src/assets/images/coins/coin1.jpg"
       },
       {
         "id": "2",
-        "country": "ALEMANIA"
+        "country": "ALEMANIA",
+        "year": "2018",
+        "type": "n"
       },
       {
         "id": "3",
-        "country": "FRANCIA"
+        "country": "FRANCIA",
+        "year": "2018",
+        "type": "c"
       },
       {
         "id": "4",
-        "country": "ITALIA"
+        "country": "ITALIA",
+        "year": "2018",
+        "type": "n"
       },
       {
         "id": "5",
-        "country": "REINO UNIDO"
+        "country": "REINO UNIDO",
+        "year": "2018",
+        "type": "c"
       },
       {
         "id": "6",
-        "country": "PORTUGAL"
+        "country": "PORTUGAL",
+        "year": "2021",
+        "type": "n"
       },
       {
         "id": "7",
-        "country": "HOLANDA"
+        "country": "HOLANDA",
+        "year": "2019",
+        "type": "n"
       },
       {
         "id": "8",
-        "country": "BÉLGICA"
+        "country": "BÉLGICA",
+        "year": "2019",
+        "type": "n"
       },
       {
         "id": "9",
-        "country": "SUIZA"
+        "country": "SUIZA",
+        "year": "2018",
+        "type": "n"
       },
       {
         "id": "10",
-        "country": "SUECIA"
+        "country": "SUECIA",
+        "year": "2018",
+        "type": "n"
       },
       {
         "id": "11",
-        "country": "NORUEGA"
+        "country": "NORUEGA",
+        "year": "2018",
+        "type": "n"
       },
       {
         "id": "12",
-        "country": "DINAMARCA"
+        "country": "DINAMARCA",
+        "year": "2019",
+        "type": "n"
       },
       {
         "id": "13",
-        "country": "AUSTRIA"
+        "country": "AUSTRIA",
+        "year": "2020",
+        "type": "n"
       },
       {
         "id": "14",
-        "country": "FINLANDIA"
+        "country": "FINLANDIA",
+        "year": "2018",
+        "type": "n"
       },
       {
         "id": "15",
-        "country": "GRECIA"
+        "country": "GRECIA",
+        "year": "2019",
+        "type": "n"
       },
       {
         "id": "16",
-        "country": "POLONIA"
+        "country": "POLONIA",
+        "year": "2018",
+        "type": "n"
       },
       {
         "id": "17",
-        "country": "RUMANIA"
+        "country": "RUMANIA",
+        "year": "2018",
+        "type": "n"
       },
       {
         "id": "18",
-        "country": "HUNGRÍA"
+        "country": "HUNGRÍA",
+        "year": "2020",
+        "type": "n"
       },
       {
         "id": "19",
-        "country": "REPÚBLICA CHECA"
+        "country": "REPÚBLICA CHECA",
+        "year": "2020",
+        "type": "n"
       },
       {
         "id": "20",
-        "country": "ESLOVAQUIA"
+        "country": "ESLOVAQUIA",
+        "year": "2018",
+        "type": "n"
       }
     ]
   }

@@ -1,0 +1,35 @@
+#filters {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    background: #f5f5f5;
+  }
+  
+  #filters > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  #filters label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #filters input[type="text"],
+  #filters input[type="range"],
+  #filters select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #filters span {
+    font-size: 14px;
+    color: #666;
+  }
+  

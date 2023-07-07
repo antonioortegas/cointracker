@@ -2,7 +2,7 @@
   "name": "cointracker",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://antonioortegas.github.io/cointracker",
+  "homepage": "./cointracker",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -26,6 +26,8 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
   }
 }
