@@ -3,6 +3,7 @@ import logo from '../assets/images/placeholderlogo.png'
 import React from 'react'
 import { useState } from 'react'
 
+//"./src/assets/images/coins/coin1.jpg"
 
 function Coin({coin, collectionArray, setCollectionArray}) {
 
@@ -20,13 +21,13 @@ function Coin({coin, collectionArray, setCollectionArray}) {
       collectionArray[coin.id-1] ?
       <>
         <div id='obtainedCoin' onClick={() => changeCoinState()}>
-          <img src={"./src/assets/images/coins/coin1.jpg"} alt="" />
+          <img src={logo} alt="" />
         </div>
       </>
       :
       <>
         <div id='unobtainedCoin' onClick={() => changeCoinState()}>
-          <img src={"./src/assets/images/coins/coin1.jpg"} alt="" />
+          <img src={logo} alt="" />
         </div>
       </>
 
