@@ -7,11 +7,9 @@ import { useState } from 'react'
 
 function Coin({coin, collectionArray, setCollectionArray}) {
 
-    console.log(collectionArray[coin.id-1])
-    console.log([coin.id-1])
+    
     function changeCoinState() {
       collectionArray[coin.id-1] = !collectionArray[coin.id-1]
-      console.log(collectionArray[coin.id-1])
       //save array to local storage
       localStorage.setItem('collectionArray', JSON.stringify(collectionArray))
     
