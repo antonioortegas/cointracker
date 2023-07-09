@@ -32,7 +32,7 @@ li{
     width: auto;
     height: auto;
     max-width: 107px;
-    max-height: 144px;
+    max-height: 155px;
 }
 
 li:hover{
@@ -47,8 +47,4 @@ img{
 
 h3{
     font-size: 0.75rem;
-}
-
-#coinCard{
-    
 }

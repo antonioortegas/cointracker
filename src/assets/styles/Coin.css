@@ -1,4 +1,5 @@
 #unobtainedCoin{
     opacity: 0.5;
+    filter: grayscale(50%);
 }
 

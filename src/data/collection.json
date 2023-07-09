@@ -1,126 +1,145 @@
 {
     "collection": [
       {
-        "id": "1",
-        "country": "ESPAÑA",
-        "year": "2018",
-        "type": "n",
-        "src": "./src/assets/images/coins/coin1.jpg"
+          "id": 1,
+          "src": "./coins/normal/2001/finlandia.jpg"
       },
       {
-        "id": "2",
-        "country": "ALEMANIA",
-        "year": "2018",
-        "type": "n"
+          "id": 2,
+          "src": "./coins/normal/2001/francia.jpg"
       },
       {
-        "id": "3",
-        "country": "FRANCIA",
-        "year": "2018",
-        "type": "c"
+          "id": 3,
+          "src": "./coins/normal/2001/monaco.jpg"
       },
       {
-        "id": "4",
-        "country": "ITALIA",
-        "year": "2018",
-        "type": "n"
+          "id": 4,
+          "src": "./coins/normal/2001/paises_bajos.jpg"
       },
       {
-        "id": "5",
-        "country": "REINO UNIDO",
-        "year": "2018",
-        "type": "c"
+          "id": 5,
+          "src": "./coins/normal/2002/grecia.jpg"
       },
       {
-        "id": "6",
-        "country": "PORTUGAL",
-        "year": "2021",
-        "type": "n"
+          "id": 6,
+          "src": "./coins/normal/2002/italia.jpg"
       },
       {
-        "id": "7",
-        "country": "HOLANDA",
-        "year": "2019",
-        "type": "n"
+          "id": 7,
+          "src": "./coins/normal/2002/portugal.jpg"
       },
       {
-        "id": "8",
-        "country": "BÉLGICA",
-        "year": "2019",
-        "type": "n"
+          "id": 8,
+          "src": "./coins/normal/2002/vaticano.jpg"
       },
       {
-        "id": "9",
-        "country": "SUIZA",
-        "year": "2018",
-        "type": "n"
+          "id": 9,
+          "src": "./coins/normal/2003/alemania.jpg"
       },
       {
-        "id": "10",
-        "country": "SUECIA",
-        "year": "2018",
-        "type": "n"
+          "id": 10,
+          "src": "./coins/normal/2003/austria.jpg"
       },
       {
-        "id": "11",
-        "country": "NORUEGA",
-        "year": "2018",
-        "type": "n"
+          "id": 11,
+          "src": "./coins/normal/2003/españa.jpg"
       },
       {
-        "id": "12",
-        "country": "DINAMARCA",
-        "year": "2019",
-        "type": "n"
+          "id": 12,
+          "src": "./coins/normal/2003/irlanda.jpg"
       },
       {
-        "id": "13",
-        "country": "AUSTRIA",
-        "year": "2020",
-        "type": "n"
+          "id": 13,
+          "src": "./coins/normal/2004/belgica.jpg"
       },
       {
-        "id": "14",
-        "country": "FINLANDIA",
-        "year": "2018",
-        "type": "n"
+          "id": 14,
+          "src": "./coins/normal/2004/luxemburgo.jpg"
       },
       {
-        "id": "15",
-        "country": "GRECIA",
-        "year": "2019",
-        "type": "n"
+          "id": 15,
+          "src": "./coins/normal/2006/monaco.jpg"
       },
       {
-        "id": "16",
-        "country": "POLONIA",
-        "year": "2018",
-        "type": "n"
+          "id": 16,
+          "src": "./coins/normal/2007/eslovenia.jpg"
       },
       {
-        "id": "17",
-        "country": "RUMANIA",
-        "year": "2018",
-        "type": "n"
+          "id": 17,
+          "src": "./coins/normal/2008/belgica.jpg"
       },
       {
-        "id": "18",
-        "country": "HUNGRÍA",
-        "year": "2020",
-        "type": "n"
+          "id": 18,
+          "src": "./coins/normal/2008/chipre.jpg"
       },
       {
-        "id": "19",
-        "country": "REPÚBLICA CHECA",
-        "year": "2020",
-        "type": "n"
+          "id": 19,
+          "src": "./coins/normal/2008/malta.jpg"
       },
       {
-        "id": "20",
-        "country": "ESLOVAQUIA",
-        "year": "2018",
-        "type": "n"
+          "id": 20,
+          "src": "./coins/normal/2009/eslovaquia.jpg"
+      },
+      {
+          "id": 21,
+          "src": "./coins/normal/2010/san_marino.jpg"
+      },
+      {
+          "id": 22,
+          "src": "./coins/normal/2011/estonia.jpg"
+      },
+      {
+          "id": 23,
+          "src": "./coins/normal/2013/vaticano.jpg"
+      },
+      {
+          "id": 24,
+          "src": "./coins/normal/2014/belgica.jpg"
+      },
+      {
+          "id": 25,
+          "src": "./coins/normal/2014/españa.jpg"
+      },
+      {
+          "id": 26,
+          "src": "./coins/normal/2014/letonia.jpg"
+      },
+      {
+          "id": 27,
+          "src": "./coins/normal/2014/paises_bajos.jpg"
+      },
+      {
+          "id": 28,
+          "src": "./coins/normal/2015/españa.jpg"
+      },
+      {
+          "id": 29,
+          "src": "./coins/normal/2015/lituania.jpg"
+      },
+      {
+          "id": 30,
+          "src": "./coins/normal/2016/vaticano.jpg"
+      },
+      {
+          "id": 31,
+          "src": "./coins/normal/2017/san_marino.jpg"
+      },
+      {
+          "id": 32,
+          "src": "./coins/normal/2017/vaticano.jpg"
+      },
+      {
+          "id": 33,
+          "src": "./coins/normal/2022/francia.jpg"
+      },
+      {
+          "id": 34,
+          "src": "./coins/normal/2023/croacia.jpg"
+      },
+      {
+          "id": 35,
+          "src": "./coins/normal/0/vaticano.jpg"
       }
-    ]
+  ]
   }
   
