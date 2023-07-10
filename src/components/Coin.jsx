@@ -8,8 +8,6 @@ import { useState } from 'react'
 
 function Coin({ coin, setCollectionArray}) {
 
-
-  let src="./coins/Austria_2Euro.jpg"
   let array = []
   array = JSON.parse(localStorage.getItem('collectionArray'));
 

@@ -1,5 +1,8 @@
 #unobtainedCoin{
-    opacity: 0.5;
-    filter: grayscale(50%);
+    filter: grayscale(100%);
+    mix-blend-mode: darken; ;
 }
 
+#obtainedCoin{
+    
+}

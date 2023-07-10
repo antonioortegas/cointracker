@@ -7,7 +7,6 @@ export function Filters({ changeFilters }) {
   const [country, setCountry] = useState('all');
 
   const handleYearChange = (event) => {
-    console.log(year)
     //on app load, checkboc is not checked and year is set to all, slider is disabled, with a default value of 2002
     //if checkbox is checked, slider is enabled and year is set to the current value of the slider
     //if slider is moved, year is set to the current value of the slider and the checkbox is checked automatically
@@ -72,10 +71,11 @@ export function Filters({ changeFilters }) {
         <select name="type" id="type" onChange={handleTypeChange}>
           <option value="all">Ambas</option>
           <option value="normal">Normal</option>
-          <option value="special">Conmemorativa</option>
+          <option value="conmemorativas">Conmemorativa</option>
         </select>
       </div>
       <div className="container">
+      <div>
         <label htmlFor="year">Filtrar por año: </label>
         <input
           type="checkbox"
@@ -83,9 +83,8 @@ export function Filters({ changeFilters }) {
           name="yearBox"
           onChange={handleYearChange}
         />
-      </div>
-
-      <div>
+        </div>
+        <div>
         <label htmlFor="year">Año</label>
         <input
           type="range"
@@ -98,6 +97,10 @@ export function Filters({ changeFilters }) {
         />
         <span>{year}</span>
       </div>
+        
+      </div>
+
+      
   
       
     </div>

@@ -17,13 +17,15 @@ function App() {
   }
 
   let collection = json
+  const regex = /\_\d+$/;
 
   //each json element has a src property that is the path to the image, containing
   //"./coins/type/year/country.jpg"
   //for each image, we need to parse the json and from the src property, extract the country, year and type and add them as properties to the collection element
   collection.forEach((coin) => {
     let src = coin.src
-    let country = src.split('/')[4].split('.')[0].toLocaleUpperCase()
+    let countrysrc =  src.split('/')[4].split('.')[0].toLocaleUpperCase()
+    let country = countrysrc.replace(regex, '')
     let year = src.split('/')[3]
     let type = src.split('/')[2]
     coin.country = country
