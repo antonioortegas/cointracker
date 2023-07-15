@@ -1,10 +1,3 @@
-//Render a div for each country with the name of the country and a link to the collection of that country
-//The link is a react-router-dom Link that redirects to the collection of that country
-//The divs are organized in a grid, where you have a card for each country, with the name of the country and the image of a folder
-//Clicking anywhere in the card redirects to the collection of that country
-//The grid is responsive, with 2 column in mobile, and 4 columns in desktop
-
-
 
 .home{
     width: 100%;

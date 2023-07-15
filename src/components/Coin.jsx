@@ -9,13 +9,13 @@ import { useState } from 'react'
 function Coin({ coin, setCollectionArray}) {
 
   let array = []
-  array = JSON.parse(localStorage.getItem('collectionArray'));
+  array = JSON.parse(localStorage.getItem('array'));
 
 
   function changeCoinState() {
     array[coin.id-1] = !array[coin.id-1]
     setCollectionArray(array)
-    localStorage.setItem('collectionArray', JSON.stringify(array))
+    localStorage.setItem('array', JSON.stringify(array))
   }
 
   return (

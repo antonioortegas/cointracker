@@ -2,7 +2,7 @@
   "name": "cointracker",
   "private": true,
   "version": "0.0.0",
-  "homepage": "./cointracker",
+  "homepage": "https://antonioortegas.github.io/cointracker/",
   "type": "module",
   "scripts": {
     "dev": "vite",

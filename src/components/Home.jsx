@@ -46,10 +46,10 @@ function Home({setFilters}) {
                    {countries.map((country, i) => {
                     return (
                         <li key={country} className="card">
-                            <Link to={"/cointracker/collection"} id='link' onClick={changeFilters}>
-                                <img src={`../src/assets/images/folder.png`} alt={country} className='folderImage'/>
+                            <a href={"/cointracker/collection"} id='link' onClick={changeFilters}>
+                                <img src={`../cointracker/images/folder.png`} alt={country} className='folderImage'/>
                                 <h2>{country}</h2>
-                            </Link>
+                            </a>
                         </li>
                     )
                     })} 

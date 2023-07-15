@@ -12,6 +12,17 @@ function App() {
   let currentCountry = ''
   if(localStorage.getItem('currentCountry')) {
     currentCountry = localStorage.getItem('currentCountry')
+  } else {
+    localStorage.setItem('currentCountry', currentCountry)
+  }
+
+  let array = []
+  if(localStorage.getItem('array')) {
+    array = JSON.parse(localStorage.getItem('array'))
+  } else {
+    array = Array(2048)
+    array.fill(false)
+    localStorage.setItem('array', JSON.stringify(array))
   }
 
   let collection = json
@@ -24,7 +35,6 @@ function App() {
     year: 'all',
     type: 'all',
   })
-  console.log(filters)
 
   //each json element has a src property that is the path to the image, containing
   //"./coins/type/year/country.jpg"
@@ -59,7 +69,7 @@ function App() {
     </div>
       <Header />
       <Routes>
-        <Route path="/cointracker" element={<Home setFilters={setFilters} />} />
+        <Route path="/" element={<Home setFilters={setFilters} />} />
         <Route path="/cointracker/collection" element={<Collection collection={filterCollection(collection)} />}/>
       </Routes>
     </>

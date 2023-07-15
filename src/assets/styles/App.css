@@ -1,16 +1,4 @@
-/*
-.bg{
-    background-image: url('/src/assets/images/EU.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    filter: greyscale(100%);
-}
-*/
+
 
 body{
     background: rgb(9,21,45);

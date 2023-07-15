@@ -5,16 +5,15 @@ import { useState } from "react";
 function Collection({ collection }) {
   //load array from local storage
   let array = [];
-  if (localStorage.getItem("collectionArray")) {
-    array = JSON.parse(localStorage.getItem("collectionArray"));
-  } else {
-    array = Array(2048);
+  if (localStorage.getItem("array")) {
+    array = JSON.parse(localStorage.getItem("array"));
   }
+  const safariRenderHack = { opacity: 3 % 2 ? 1 : 0.99 };
 
   const [collectionArray, setCollectionArray] = useState(array);
   return (
     <>
-      <div className="collection" id="collection">
+      <div key={new Date()} style={safariRenderHack} className="collection" id="collection">
         <ul>
           {collection.map((coin) => (
             <li key={coin.id} className="coinCard" id="coinCard">

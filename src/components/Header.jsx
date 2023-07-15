@@ -23,11 +23,11 @@ function Header({ changeFilters }) {
       */
       }
         <header className="header" id='header'>
-          <Link to={"/cointracker"} onClick={handleScroll}>
+          <a href={"/cointracker"} onClick={handleScroll}>
             <div id='logo'>
               <i className="fa-solid fa-home fa-2xl" id='logoicon'></i>
             </div>
-          </Link>
+          </a>
         </header>
         <div id='headerSpacer'>
 

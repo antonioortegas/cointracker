@@ -1,7 +1,5 @@
 .collection{
     width: 100%;
-    justify-content: center;
-    align-items: center;
 }
 
 .collection ul{
@@ -11,6 +9,7 @@
     grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
     row-gap: 2rem;
     column-gap: 3rem;
+    text-align: center;
     justify-items: center;
 }
 
