@@ -80,6 +80,9 @@ export function Filters({ changeFilters }) {
           <option value="Malta">Malta</option>
           <option value="Paises_Bajos">Paises Bajos</option>
           <option value="Portugal">Portugal</option>
+          <option value="San_Marino">San Marino</option>
+          <option value="Vaticano">Vaticano</option>
+          
           
         </select>
       </div>
