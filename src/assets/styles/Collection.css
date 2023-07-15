@@ -1,11 +1,11 @@
-#collection{
+.collection{
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-#collection ul{
-    margin-top: 4vh;
+.collection ul{
+    margin-top: 13vh;
     padding: 0 4vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
@@ -14,37 +14,38 @@
     justify-items: center;
 }
 
-#coin-img{
-    text-align: center;
-}
-
-#coin-name{
-    margin-top: 1rem;
-    text-align: center;
-}
-
 li{
     list-style: none;
     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,1);
-    padding: 1rem;
-    width: auto;
-    height: auto;
-    max-width: 107px;
-    max-height: 155px;
+    width: 107px;
+    height: 155px;
 }
 
 li:hover{
-    transform: scale(1.05);
+    transform: scale(1.2);
     transition: all 0.1s ease-in-out;
 }
 
-img{
-    width: 75px;
-    height: 75px;
+.coinCard{
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 h3{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
+    color: #000;
+    margin-bottom: 0rem;
+}
+
+#countryName{
+    margin-top: 1rem;
+}
+
+#link{
+    text-decoration: none;
 }

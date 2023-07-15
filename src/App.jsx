@@ -1,23 +1,30 @@
 import './assets/styles/App.css'
 import Header from './components/Header.jsx'
+import Home from './components/Home.jsx'
 import Collection from './components/Collection.jsx'
 import { useState } from 'react'
+import { Route, Routes, Link } from 'react-router-dom'
 
 import { collection as json } from './data/collection.json'
 
 function App() {
-  //load array from local storage if it exists, otherwise create a new one and save it
-  let array = []
-  if(localStorage.getItem('collectionArray')) {
-    array = JSON.parse(localStorage.getItem('collectionArray'))
-  } else {
-    array = Array(2048)
-    localStorage.setItem('collectionArray', JSON.stringify(array))
-    
+
+  let currentCountry = ''
+  if(localStorage.getItem('currentCountry')) {
+    currentCountry = localStorage.getItem('currentCountry')
   }
 
   let collection = json
   const regex = /\_\d+$/;
+
+
+  const [initialCollection] = useState(collection)
+  const [filters, setFilters] = useState({
+    country: currentCountry!="" ? currentCountry : 'all',
+    year: 'all',
+    type: 'all',
+  })
+  console.log(filters)
 
   //each json element has a src property that is the path to the image, containing
   //"./coins/type/year/country.jpg"
@@ -33,14 +40,6 @@ function App() {
     coin.type = type
   })
 
-
-  const [initialCollection] = useState(collection)
-  const [filters, setFilters] = useState({
-    country: 'all',
-    year: 'all',
-    type: 'all',
-  })
-
   const filterCollection = (initialCollection) => {
     return initialCollection.filter(coin => {
       return (
@@ -51,11 +50,18 @@ function App() {
     })
   }
 
+  
 
   return (
     <>
-      <Header changeFilters={setFilters} />
-      <Collection collection={filterCollection(collection)} />
+    <div className='bg'>
+
+    </div>
+      <Header />
+      <Routes>
+        <Route path="/cointracker" element={<Home setFilters={setFilters} />} />
+        <Route path="/cointracker/collection" element={<Collection collection={filterCollection(collection)} />}/>
+      </Routes>
     </>
   )
 }

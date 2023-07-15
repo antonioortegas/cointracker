@@ -1,14 +1,18 @@
 import '../assets/styles/Header.css'
 import { Filters } from './Filters'
+import { Link } from 'react-router-dom'
 
 function Header({ changeFilters }) {
+    //Function that scrolls to the top of the page
+    const handleScroll = () => {
+      window.scrollTo(top
+      )
+    }
+
     return (
       <>
-        <header className="header" id='header'>
-          <div id='logo'>
-            <i className="fa-solid fa-home fa-2xl" id='logoicon'></i>
-          </div>
-
+      {
+      /*
           <div id='home'>
             <i className="fa-solid fa-filter fa-2xl" id='homeicon'></i>
           </div>
@@ -16,9 +20,18 @@ function Header({ changeFilters }) {
           <div id='user'>
             <i className="fa-solid fa-user fa-2xl" id='usericon'></i>
           </div>
-          
+      */
+      }
+        <header className="header" id='header'>
+          <Link to={"/cointracker"} onClick={handleScroll}>
+            <div id='logo'>
+              <i className="fa-solid fa-home fa-2xl" id='logoicon'></i>
+            </div>
+          </Link>
         </header>
-        <Filters changeFilters={changeFilters} />
+        <div id='headerSpacer'>
+
+        </div>
       </>
     )
   }

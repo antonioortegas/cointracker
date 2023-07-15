@@ -22,13 +22,13 @@ function Coin({ coin, setCollectionArray}) {
 
     array[coin.id-1] ?
     <>
-      <div id='obtainedCoin' onClick={changeCoinState}>
+      <div id='obtainedCoin' onClick={changeCoinState} className='coin'>
         <img src={coin.src} alt='' />
       </div>
     </>
     :
     <>
-      <div id='unobtainedCoin' onClick={changeCoinState}>
+      <div id='unobtainedCoin' onClick={changeCoinState} className='coin'>
         <img src={coin.src} alt='' />
       </div>
     </>

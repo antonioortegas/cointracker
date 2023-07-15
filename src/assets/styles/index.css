@@ -5,6 +5,7 @@ body{
 #root {
     height: 100vh;
     overflow-y: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -14,6 +15,7 @@ body{
       html {
         min-height: 100.3%;
         overscroll-behavior-y: none;
+        
       }
     }
   }
@@ -37,6 +39,7 @@ body{
   /* prevent pull-to-refresh for Chrome 63+ */
   body{
     overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
   }
 
   /* prevent pinch-zoom for Chrome 36+, Safari 13+ */
