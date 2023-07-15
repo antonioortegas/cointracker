@@ -462,39 +462,39 @@
         },
         {
             "id": 116,
-            "src": "./coins/conmemorativas/2012/finlandia.jpg"
+            "src": "./coins/conmemorativas/2012/estonia.jpg"
         },
         {
             "id": 117,
-            "src": "./coins/conmemorativas/2012/finlandia_2.jpg"
+            "src": "./coins/conmemorativas/2012/finlandia.jpg"
         },
         {
             "id": 118,
-            "src": "./coins/conmemorativas/2012/francia.jpg"
+            "src": "./coins/conmemorativas/2012/finlandia_2.jpg"
         },
         {
             "id": 119,
-            "src": "./coins/conmemorativas/2012/francia_2.jpg"
+            "src": "./coins/conmemorativas/2012/francia.jpg"
         },
         {
             "id": 120,
-            "src": "./coins/conmemorativas/2012/grecia_2.jpg"
+            "src": "./coins/conmemorativas/2012/francia_2.jpg"
         },
         {
             "id": 121,
-            "src": "./coins/conmemorativas/2012/irlanda_2.jpg"
+            "src": "./coins/conmemorativas/2012/grecia_2.jpg"
         },
         {
             "id": 122,
-            "src": "./coins/conmemorativas/2012/italia.jpg"
+            "src": "./coins/conmemorativas/2012/irlanda_2.jpg"
         },
         {
             "id": 123,
-            "src": "./coins/conmemorativas/2012/italia_2.jpg"
+            "src": "./coins/conmemorativas/2012/italia.jpg"
         },
         {
             "id": 124,
-            "src": "./coins/conmemorativas/2012/joint_comm_2012_Estonia2.jpg"
+            "src": "./coins/conmemorativas/2012/italia_2.jpg"
         },
         {
             "id": 125,
@@ -1890,4 +1890,3 @@
         }
     ]
 }
-  

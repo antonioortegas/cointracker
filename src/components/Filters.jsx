@@ -59,12 +59,29 @@ export function Filters({ changeFilters }) {
     <div id="filters">
       <div>
         <label htmlFor="country">País</label>
-        <input
-          type="text"
-          id="country"
-          name="country"
-          onChange={handleCountryChange}
-        />
+        <select name="countryBox" id="countryBox" onChange={handleCountryChange}>
+          <option value="all">Todos</option>
+          <option value="Alemania">Alemania</option>
+          <option value="Austria">Austria</option>
+          <option value="Belgica">Belgica</option>
+          <option value="Chipre">Chipre</option>
+          <option value="Croacia">Croacia</option>
+          <option value="Eslovaquia">Eslovaquia</option>
+          <option value="Eslovenia">Eslovenia</option>
+          <option value="España">España</option>
+          <option value="Estonia">Estonia</option>
+          <option value="Finlandia">Finlandia</option>
+          <option value="Francia">Francia</option>
+          <option value="Grecia">Grecia</option>
+          <option value="Irlanda">Irlanda</option>
+          <option value="Italia">Italia</option>
+          <option value="Letonia">Letonia</option>
+          <option value="Luxemburgo">Luxemburgo</option>
+          <option value="Malta">Malta</option>
+          <option value="Paises_Bajos">Paises Bajos</option>
+          <option value="Portugal">Portugal</option>
+          
+        </select>
       </div>
       <div>
         <label htmlFor="type">Tipo</label>
