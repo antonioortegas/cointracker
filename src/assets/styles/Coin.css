@@ -4,5 +4,17 @@
 }
 
 #obtainedCoin{
-    
+    animation: coin 2s infinite;
+}
+
+@keyframes coin{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
